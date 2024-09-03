@@ -42,7 +42,7 @@ jobs:
         with:
           path: ./app/build/outputs/apk/release/app-release.apk
       - name: Download APK from build
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: artifact
       - name: Get current date
